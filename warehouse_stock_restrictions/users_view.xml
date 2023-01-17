@@ -74,7 +74,7 @@
         <menuitem action="stock.action_production_lot_form" id="stock.menu_action_production_lot_form"
         parent="stock.menu_stock_inventory_control" groups="stock.group_stock_manager"
         sequence="101"/>
-        <menuitem id="stock.menu_forecast_inventory" name="Forecasted Inventory" parent="stock.menu_warehouse_report" sequence="101" action="stock.report_stock_quantity_action" groups="stock.group_stock_manager"/>
-        <menuitem action="stock.stock_move_action" id="stock.stock_move_menu" parent="stock.menu_warehouse_report" sequence="140" groups="stock.group_stock_manager"/>
+<!--        <menuitem id="stock.menu_forecast_inventory" name="Forecasted Inventory" parent="stock.menu_warehouse_config" sequence="101" action="stock.report_stock_quantity_action" groups="stock.group_stock_manager"/>-->
+        <menuitem action="stock.stock_move_action" id="stock.stock_move_menu" parent="stock.menu_warehouse_config" sequence="140" groups="stock.group_stock_manager"/>
     </data>
 </openerp>
